@@ -8,13 +8,13 @@ https://mitelman.engineering/blog/python-best-practice/automating-python-best-pr
 by ALex Mitelman
 
 1. Install pyenv
-        curl https://pyenv.run | bash
+        ```curl https://pyenv.run | bash```
 or
-        yay -Syu pyenv
+        ```yay -Syu pyenv```
 2. Update to desired python version, 3.9.6 in my case
-        pyenv install 3.9.6
+        ```pyenv install 3.9.6```
 3. Install poetry for dependency managment
-        curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/install-poetry.py | python -
+        ```curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/install-poetry.py | python -```
 4. Create new project with poetry
         poetry new <project.name>
 or use existing project
